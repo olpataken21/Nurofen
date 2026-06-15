@@ -1,38 +1,38 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url("/assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 @font-face {
   font-family: "Jost Regular";
-  src: url("/assets/fonts/Jost/static/Jost-Regular.ttf");
+  src: url("../fonts/Jost/static/Jost-Regular.ttf");
 }
 @font-face {
   font-family: "Jost Bold";
-  src: url("/assets/fonts/Jost/static/Jost-Bold.ttf");
+  src: url("../fonts/Jost/static/Jost-Bold.ttf");
 }
 @font-face {
   font-family: "Jost SemiBold";
-  src: url("/assets/fonts/Jost/static/Jost-SemiBold.ttf");
+  src: url("../fonts/Jost/static/Jost-SemiBold.ttf");
 }
 @font-face {
   font-family: "Jost Regular";
-  src: url("/assets/fonts/Jost/static/Jost-Regular.ttf");
+  src: url("../fonts/Jost/static/Jost-Regular.ttf");
 }
 @font-face {
   font-family: "Jost Light";
-  src: url("/assets/fonts/Jost/static/Jost-Light.ttf");
+  src: url("../fonts/Jost/static/Jost-Light.ttf");
 }
 @font-face {
   font-family: "Jost Italic";
-  src: url("/assets/fonts/Jost/static/Jost-Italic.ttf");
+  src: url("../fonts/Jost/static/Jost-Italic.ttf");
 }
 @font-face {
   font-family: "Inter Regular";
-  src: url("/assets/fonts/Inter/static/Inter_18pt-Regular.ttf");
+  src: url("../fonts/Inter/static/Inter_18pt-Regular.ttf");
 }
 @font-face {
     font-family: "Jost Medium";
-    src: url('/assets/fonts/Jost/static/Jost-Medium.ttf');
+    src: url('../fonts/Jost/static/Jost-Medium.ttf');
 }
 * {
   box-sizing: border-box;
@@ -601,7 +601,7 @@ header {
   .wrapper {
     width: 100%;
     height: 317px;
-    background-image: url("/assets/img/png/TG-fon.png");
+    background-image: url("../assets/img/png/TG-fon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -800,7 +800,7 @@ footer {
             li::before {
               content: "";
               position: absolute;
-              background-image: url("/assets/img/svg/befor-li.svg");
+              background-image: url("../assets/img/svg/befor-li.svg");
               background-repeat: no-repeat;
               background-size: cover;
               top: 0;
