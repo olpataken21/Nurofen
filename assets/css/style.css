@@ -1202,6 +1202,7 @@ footer .wrapper .information .menu-info .info-date .title {
 }
 .medication-for-kids .wrapper .medic-nurof-kids {
   display: flex;
+  flex-wrap: wrap;
   background-color: white;
   border-radius: 30px;
   background-image: url("../img/png/Vector.png");
@@ -1633,6 +1634,7 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .sub-title {
     font-size: 24px;
+    letter-spacing: 0;
   }
   .about-us .wrapper .experts .experts-left .sub-title {
     padding-left: 20px;
@@ -1862,16 +1864,65 @@ footer .wrapper .information .menu-info .info-date .title {
     z-index: 100;
   }
   .racketa-experts .racketa {
-    display: none;
+    width: 25%;
   }
   .header-main .wrapper .page-4 .text-main span sup {
     font-size: 12px;
   }
   .racketa-experts .wrapper .block-racketa {
     padding: 20px;
+    align-items: start;
+    height: 100%;
   }
   .racketa-experts .wrapper {
     gap: 20px;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block {
+    padding: 20px;
+    height: 100%;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block .image-doc-ners {
+    position: relative;
+  }
+  .racketa-experts .wrapper .experts-project {
+    margin-bottom: 20px;
+  }
+  .medication-for-kids .wrapper {
+    padding: 20px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction .sub-title {
+    font-size: 24px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction {
+    padding: 0;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction .list-inctructions .one-point span sup {
+    font-size: 12px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids {
+    background-image: none;
+    padding: 20px;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .instruction .list-inctructions .one-point span {
+    flex: 1;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .red-med {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 50%;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .orange-med {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 26%;
+  }
+  .medication-for-kids .wrapper .medic-nurof-kids .nurofen-kids-medic .taste {
+    font-size: 16px;
+  }
+  .medication-for-kids .wrapper .text-for-medic-kids {
+    font-size: 18px;
   }
   .popup-content {
     padding: 20px;
