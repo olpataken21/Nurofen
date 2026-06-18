@@ -323,9 +323,9 @@ header .wrapper .menu-header li:first-child a .icon-lang {
 .header-main .wrapper .page-4 .text-main span {
   letter-spacing: -3px;
 }
-/* .header-main .wrapper .page-4 .text-main span sup {
+.header-main .wrapper .page-4 .text-main span sup {
   font-size: 20px;
-} */
+}
 
 .about-us {
   background: rgb(238, 238, 238);
@@ -1853,6 +1853,25 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .article-main .wrapper .block-video .info-about-article .about-person-info .text-about-person span {
     font-size: 14px;
+  }
+  .racketa-experts .wrapper .block-racketa .fon-elipse {
+    bottom: 0;
+    z-index: 0;
+  }
+  .racketa-experts .wrapper .block-racketa .block-racketa-text {
+    z-index: 100;
+  }
+  .racketa-experts .racketa {
+    display: none;
+  }
+  .header-main .wrapper .page-4 .text-main span sup {
+    font-size: 12px;
+  }
+  .racketa-experts .wrapper .block-racketa {
+    padding: 20px;
+  }
+  .racketa-experts .wrapper {
+    gap: 20px;
   }
   .popup-content {
     padding: 20px;
