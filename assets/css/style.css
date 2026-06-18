@@ -1924,6 +1924,9 @@ footer .wrapper .information .menu-info .info-date .title {
   .medication-for-kids .wrapper .text-for-medic-kids {
     font-size: 18px;
   }
+  .racketa-experts .wrapper .experts-project .experts-block ul li span {
+    width: 100%;
+  }
   .popup-content {
     padding: 20px;
   }
