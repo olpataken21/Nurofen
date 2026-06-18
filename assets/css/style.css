@@ -323,9 +323,9 @@ header .wrapper .menu-header li:first-child a .icon-lang {
 .header-main .wrapper .page-4 .text-main span {
   letter-spacing: -3px;
 }
-.header-main .wrapper .page-4 .text-main span sup {
+/* .header-main .wrapper .page-4 .text-main span sup {
   font-size: 20px;
-}
+} */
 
 .about-us {
   background: rgb(238, 238, 238);
