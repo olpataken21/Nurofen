@@ -2069,7 +2069,27 @@ footer {
   .article-main .wrapper .icon-article{
     font-size: 14px;
   }
+  .article-main .wrapper .block-article-text .icon-article{
+    margin-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text p, .article-main .wrapper .block-article-text span{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .article-main .wrapper .block-article-text ul li{
+    padding-left: 25px;
+  }
+  .article-main .wrapper .block-article-text ul li:before{
+    width: 16px;
+    height: 14px;
+  }
 
+
+  
 
 
   .popup-content{
