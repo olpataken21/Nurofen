@@ -560,9 +560,11 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   align-items: center;
   width: 100%;
   gap: 40px;
+  flex-wrap: wrap;
 }
 .article-more .wrapper .articles .one-article {
   text-decoration: none;
+  max-width: 570px;
   width: 100%;
   border-radius: 30px;
   background-color: white;
@@ -581,7 +583,6 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   display: block;
 }
 .article-more .wrapper .articles .one-article .image-article .video-article-preview {
-  height: 220px;
   width: 100%;
 }
 .article-more .wrapper .articles .one-article .image-article .video-article-preview img {
@@ -1532,6 +1533,9 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .article-more .wrapper .articles {
     flex-direction: column;
+  }
+  .article-more .wrapper .articles .one-article {
+    max-width: 100%;
   }
   .article-more .wrapper .articles .one-article:hover {
     transform: scale(1);
