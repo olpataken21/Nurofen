@@ -1341,9 +1341,6 @@ footer .wrapper .information .menu-info .info-date .title {
   filter: grayscale(100%);
   border-radius: 30px;
 }
-.article-main .wrapper .block-video .image-video-article:hover img {
-  filter: grayscale(0);
-}
 .article-main .wrapper .block-video .info-about-article {
   display: flex;
   gap: 20px;
@@ -2061,7 +2058,7 @@ footer .wrapper .information .menu-info .info-date .title {
     flex-direction: column;
   }
   .article-main .wrapper .block-article-text .actions .action-item p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .popup-content {
     padding: 20px;
