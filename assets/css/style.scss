@@ -1592,6 +1592,7 @@ footer {
   }
   .article-more .wrapper .articles .one-article{
     max-width: 100%;
+    flex:1 1 100%;
   }
   .article-more .wrapper .articles .one-article:hover{
     transform: scale(1);
