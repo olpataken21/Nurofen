@@ -1488,7 +1488,6 @@ footer {
       sup{
         font-size: 12px;
       }
-      
       .detail-banner{
         margin: 24px 0;
       }
@@ -1516,8 +1515,30 @@ footer {
           background-image: url("../img/svg/li-article-before.svg");
         }
       }
-      
-
+      .actions{
+        display: flex;
+        gap: 16px;
+        margin: 12px 0;
+        .action-item{
+          display: flex;
+          align-items: center;
+          max-width: 560px;
+          width: 100%;
+          padding: 15px;
+          gap: 12px;
+          border-radius: 10px;
+          background-color: #f6f6f6;
+          img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+          }
+          p{
+            margin-bottom: 0;
+            font-size: 18px;
+          }
+        }
+      }
     }
   }
 }
@@ -2087,9 +2108,14 @@ footer {
     width: 16px;
     height: 14px;
   }
+  .article-main .wrapper .block-article-text .actions{
+    flex-direction: column;
+  }
+  .article-main .wrapper .block-article-text .actions .action-item p{
+    font-size: 12px;
+  }
 
 
-  
 
 
   .popup-content{

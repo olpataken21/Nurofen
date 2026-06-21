@@ -1470,6 +1470,30 @@ footer .wrapper .information .menu-info .info-date .title {
   background-size: cover;
   background-image: url("../img/svg/li-article-before.svg");
 }
+.article-main .wrapper .block-article-text .actions {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0;
+}
+.article-main .wrapper .block-article-text .actions .action-item {
+  display: flex;
+  align-items: center;
+  max-width: 560px;
+  width: 100%;
+  padding: 15px;
+  gap: 12px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.article-main .wrapper .block-article-text .actions .action-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.article-main .wrapper .block-article-text .actions .action-item p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
 
 .popup {
   position: fixed;
@@ -2032,6 +2056,12 @@ footer .wrapper .information .menu-info .info-date .title {
   .article-main .wrapper .block-article-text ul li:before {
     width: 16px;
     height: 14px;
+  }
+  .article-main .wrapper .block-article-text .actions {
+    flex-direction: column;
+  }
+  .article-main .wrapper .block-article-text .actions .action-item p {
+    font-size: 12px;
   }
   .popup-content {
     padding: 20px;
