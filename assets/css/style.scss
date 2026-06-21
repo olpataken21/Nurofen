@@ -1347,6 +1347,15 @@ footer {
         width: max-content;
         height: 67px;
     }
+    .icon-article{color: #4f4f50;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Jost Regular";
+    font-weight: 400; 
+    }
     .block-video{
       display: flex;
       flex-direction: column;
@@ -1443,6 +1452,72 @@ footer {
           }
         }
       }
+    }
+    .block-article-text{
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      background-color: white;
+      border-radius: 30px;
+      .icon-article{
+        margin-bottom: 20px;
+      }
+      h2{
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0em;
+        margin-bottom: 20px;
+        display: block;
+        font-family: "Jost Bold";
+        color:#f2a83b;
+      }
+      p,span{
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0;
+        margin-bottom: 20px;
+        display: block;
+        font-family: "Jost Regular";
+      }
+      sup{
+        font-size: 12px;
+      }
+      
+      .detail-banner{
+        margin: 24px 0;
+      }
+      .detail-banner img{
+        height: auto;
+      }
+      ul{
+        padding: 0;
+        margin: 0;
+        list-style-type:none;
+        li{
+          position: relative;
+          padding-left: 30px;
+        }
+        li:before{
+          position: absolute;
+          content: "";
+          left: 0;
+          top: 0;
+          width: 24px;
+          height: 22px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url("../img/svg/li-article-before.svg");
+        }
+      }
+      
+
     }
   }
 }
@@ -1908,6 +1983,9 @@ footer {
   .article-main .wrapper .block-video .info-about-article .about-article .title-article{
     font-size: 18px;
   }
+  .article-main .wrapper .block-article-text .info-about-article .about-article .title-article{
+    font-size: 18px;
+  }
   .article-main .wrapper .block-video .info-about-article .about-person-info{
     margin-top: 0;
   }
@@ -1987,6 +2065,9 @@ footer {
   }
   .racketa-experts .wrapper .experts-project .experts-block ul li span{
     width: 100%;
+  }
+  .article-main .wrapper .icon-article{
+    font-size: 14px;
   }
 
 
