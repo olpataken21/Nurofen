@@ -1384,11 +1384,11 @@ footer {
           border-radius: 30px;
         }
       }
-      // .image-video-article:hover{
-      //   // img{
-      //   //   // filter:grayscale(0);
-      //   // }
-      // }
+      .image-video-article:hover{
+        img{
+          filter:grayscale(0);
+        }
+      }
       .info-about-article{
         display: flex;
         gap: 20px;
