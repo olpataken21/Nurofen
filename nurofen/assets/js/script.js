@@ -47,7 +47,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (noAgreeBtn) {
-        popup.style.display = 'none';
+        noAgreeBtn.addEventListener('click', function () {
+            popup.style.display = 'none';
+        });
     }
 });
 
