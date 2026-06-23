@@ -578,6 +578,7 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   border-top-right-radius: 30px;
   overflow: hidden;
   display: block;
+  height: 220px;
 }
 .article-more .wrapper .articles .one-article .image-article img {
   filter: grayscale(100%);
@@ -1443,10 +1444,10 @@ footer .wrapper .information .menu-info .info-date .title {
 .article-main .wrapper .block-article-text sup {
   font-size: 12px;
 }
-.article-main .wrapper .block-article-text .detail-banner {
+.article-main .wrapper .block-article-text figure {
   margin: 24px 0;
 }
-.article-main .wrapper .block-article-text .detail-banner img {
+.article-main .wrapper .block-article-text figure img {
   height: auto;
 }
 .article-main .wrapper .block-article-text ul {
@@ -1457,6 +1458,7 @@ footer .wrapper .information .menu-info .info-date .title {
 .article-main .wrapper .block-article-text ul li {
   position: relative;
   padding-left: 30px;
+  padding-bottom: 20px;
 }
 .article-main .wrapper .block-article-text ul li:before {
   position: absolute;
@@ -1470,12 +1472,12 @@ footer .wrapper .information .menu-info .info-date .title {
   background-size: cover;
   background-image: url("../img/svg/li-article-before.svg");
 }
-.article-main .wrapper .block-article-text .actions {
+.article-main .wrapper .block-article-text .article-notes {
   display: flex;
   gap: 16px;
   margin: 12px 0;
 }
-.article-main .wrapper .block-article-text .actions .action-item {
+.article-main .wrapper .block-article-text .article-notes__item {
   display: flex;
   align-items: center;
   max-width: 560px;
@@ -1485,19 +1487,19 @@ footer .wrapper .information .menu-info .info-date .title {
   border-radius: 10px;
   background-color: #f6f6f6;
 }
-.article-main .wrapper .block-article-text .actions .action-item img {
+.article-main .wrapper .block-article-text .article-notes__item img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-.article-main .wrapper .block-article-text .actions .action-item p {
+.article-main .wrapper .block-article-text .article-notes__item p {
   margin-bottom: 0;
   font-size: 18px;
 }
 
 .popup {
   position: fixed;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   inset: 0;
@@ -2052,15 +2054,16 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .article-main .wrapper .block-article-text ul li {
     padding-left: 25px;
+    padding-bottom: 10px;
   }
   .article-main .wrapper .block-article-text ul li:before {
     width: 16px;
     height: 14px;
   }
-  .article-main .wrapper .block-article-text .actions {
+  .article-main .wrapper .block-article-text .article-notes {
     flex-direction: column;
   }
-  .article-main .wrapper .block-article-text .actions .action-item p {
+  .article-main .wrapper .block-article-text .rticle-notes__item p {
     font-size: 14px;
   }
   .popup-content {
