@@ -61,7 +61,7 @@ h1 {
   font-size: 50px;
   font-weight: 600;
   line-height: 100%;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
 }
 
 .sub-title {
@@ -84,8 +84,8 @@ span {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
 }
 
 img {
@@ -230,7 +230,7 @@ header .wrapper .menu-header li:first-child a .icon-lang {
 }
 .header-main .doctor {
   z-index: 2;
-  right: 3px;
+  right: 0px;
   top: 5px;
   height: 80%;
 }
@@ -269,9 +269,28 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   width: 100%;
   height: 100%;
 }
+
+
 .header-main .wrapper .title-main-header span {
   font-size: 30px;
   width: 100%;
+}
+.header-main .wrapper .page{
+  margin-top: 113px;
+}
+.header-main .wrapper .page .logotip {
+  max-width: 642px;
+  width: 100%;
+  margin-bottom: 5px;
+ 
+}
+.header-main .wrapper .page .text-main{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header-main .wrapper .page span{
+  font-size: 45px;
 }
 .header-main .wrapper .page-2 {
   display: flex;
@@ -338,7 +357,8 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
+  gap: 7px;
   padding-bottom: 127px;
   padding-left: 0;
   padding-right: 0;
@@ -365,40 +385,42 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  max-width: 496px;
 }
 .about-us .wrapper .about-project .project-img {
   overflow: hidden;
   position: relative;
   width: 100%;
   height: 280px;
-  max-width: 550px;
+  /* max-width: 550px; */
+  max-width: 630px;
 }
 .about-us .wrapper .about-project .project-img .vector-2 {
   position: absolute;
   top: 0;
-  left: 0;
-  max-width: 550px;
+  left: 27px;
+  max-width: 583px;
   width: 100%;
 }
 .about-us .wrapper .about-project .project-img .strepsils-card {
-  max-width: 360px;
+  max-width: 361px;
   width: 100%;
   position: absolute;
-  top: 46px;
-  left: 25px;
+  top: 55px;
+  left: 51px;
 }
 .about-us .wrapper .about-project .project-img .nurofen-card {
-  max-width: 360px;
+  max-width: 361px;
   width: 100%;
   position: absolute;
-  top: 135px;
-  left: 192px;
+  top: 147px;
+  left: 260px;
 }
 .about-us .wrapper .about-project .project-img .Union {
   width: 47px;
   position: absolute;
-  top: 120px;
-  left: 235px;
+  top: 128px;
+  left: 312px;
 }
 .about-us .wrapper .experts {
   display: flex;
@@ -523,7 +545,7 @@ header .wrapper .menu-header li:first-child a .icon-lang {
 }
 .cards .wrapper .card-one .text-card span {
   font-size: 40px;
-  line-height: 100%;
+  line-height: 120%;
 }
 .cards .wrapper .card-one .text-card span sup {
   font-size: 22px;
@@ -564,12 +586,12 @@ header .wrapper .menu-header li:first-child a .icon-lang {
 }
 .article-more .wrapper .articles .one-article {
   text-decoration: none;
-  max-width: 570px;
+  max-width: 580px;
   width: 100%;
   border-radius: 30px;
   background-color: white;
   transition: all 0.6s ease;
-  flex: 1 1 370px;
+  /* flex: 1 1 370px; */
 }
 .article-more .wrapper .articles .one-article .image-article {
   position: relative;
@@ -760,7 +782,7 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   color: #878787;
   font-family: "Jost Light";
   font-weight: 300;
-  font-size: 36px;
+  font-size: 37px;
   line-height: 100%;
   text-transform: uppercase;
   width: 100%;
@@ -1616,8 +1638,12 @@ footer .wrapper .information .menu-info .info-date .title {
     max-width: 494px;
   }
   .article-more .wrapper .articles {
-    justify-content: center;
+    flex-direction: column;
   }
+  .article-more .wrapper .articles .one-article{
+    max-width: 100%;
+  }
+  
 }
 @media (max-width: 970px) {
   .about-us .wrapper .experts .experts-left .doctor-with-nerc {
@@ -1645,7 +1671,7 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .article-more .wrapper .articles .one-article {
     max-width: 100%;
-    flex: 1 1 100%;
+    
   }
   .article-more .wrapper .articles .one-article:hover {
     transform: scale(1);
@@ -1706,6 +1732,7 @@ footer .wrapper .information .menu-info .info-date .title {
     max-width: 200px;
     width: 100%;
     padding-top: 120px;
+    margin-top: 0;
   }
   .header-main .wrapper .title-main-header span {
     font-size: 16px;
@@ -1726,7 +1753,7 @@ footer .wrapper .information .menu-info .info-date .title {
   .about-us .wrapper .about-project .project-img .strepsils-card {
     max-width: 210px;
     top: 34px;
-    left: 15px;
+    left: 33px;
   }
   .about-us .wrapper .about-project .project-img .nurofen-card {
     max-width: 210px;
@@ -1735,7 +1762,7 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .about-us .wrapper .about-project .project-img .Union {
     width: 25px;
-    top: 76px;
+    top: 77px;
     left: 160px;
   }
   .about-us .wrapper {
@@ -1745,6 +1772,9 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .about-us .wrapper .about-project .project-text {
     padding: 20px 20px 0 20px;
+  }
+  .about-us .wrapper .about-project .project-text .text-span{
+    max-width: 100%;
   }
   .sub-title {
     font-size: 24px;

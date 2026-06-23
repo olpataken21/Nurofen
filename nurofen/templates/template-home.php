@@ -4,7 +4,9 @@
  */
 get_header();
 ?>
+
 <main>
+    
     <section class="header-main">
         <div class="fon">
             <div class="layer ornament">
@@ -171,7 +173,7 @@ get_header();
             <div class="card-one">
                 <div class="text-card">
                     <div class="title"><?php _e('Подход<br> к борьбе', NUROFEN_TD); ?></div>
-                    <span><?php esc_html_e('с болью в горле, основанный на науке', NUROFEN_TD); ?></span>
+                    <span><?php _e('с болью в горле, основанный<br> на науке', NUROFEN_TD); ?></span>
                 </div>
                 <a href="#" class="button">
                     <?php esc_html_e('Подробнее', NUROFEN_TD); ?>

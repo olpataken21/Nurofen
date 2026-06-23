@@ -5,6 +5,7 @@
 get_header();
 require get_template_directory() . "/inc/get_posts_by_category.php";
 ?>
+
 <main>
     <section class="header-main">
         <div class="fon">
