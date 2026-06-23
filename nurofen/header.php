@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +13,28 @@
 
 <body <?php body_class(); ?>>
     <header>
-    <div class="wrapper">
-        <a href="<?php echo home_url(); ?>" class="title-header">ShamollashStop</a>
-        <ul class="menu-header">
-            <li><a href="#">
-                <span>УЗ</span>
-                <div class="icon-lang">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/png/lang-icon.png" alt="lang">
-                </div>
-                </a>
-            </li>
-            <li><a href="<?php echo get_permalink(get_page_by_path('strepsils')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/svg/strepsils.svg" alt="strepsils"></a></li>
-            <li><a href="<?php echo get_permalink(get_page_by_path('nurofen')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/svg/nurofen.svg" alt="nurofen"></a></li>
-            <li><a href="<?php echo get_permalink(get_page_by_path('nurofen-kids')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/svg/nurofen-child.svg" alt="nurofen"></a></li>
-        </ul>
-    </div>
-</header>
+        <div class="wrapper">
+            <a href="<?php echo esc_url(function_exists('pll_home_url') ? pll_home_url() : home_url('/')); ?>" class="title-header">ShamollashStop</a>
+            <ul class="menu-header">
+                <?php $nurofen_lang_switcher = nurofen_get_language_switcher(); ?>
+                <li>
+                    <a href="<?php echo esc_url($nurofen_lang_switcher['url'] ?? '#'); ?>">
+                        <span><?php echo esc_html($nurofen_lang_switcher['label'] ?? __('УЗ', NUROFEN_TD)); ?></span>
+                        <div class="icon-lang">
+                            <img src="<?php echo esc_url($nurofen_lang_switcher['flag_url'] ?? get_template_directory_uri() . '/assets/img/png/lang-icon.png'); ?>"
+                                alt="<?php esc_attr_e('Язык', NUROFEN_TD); ?>">
+                        </div>
+                    </a>
+                </li>
+                <li><a href="<?php echo esc_url(nurofen_get_page_permalink('strepsils')); ?>"><img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/img/svg/strepsils.svg"
+                            alt="strepsils"></a></li>
+                <li><a href="<?php echo esc_url(nurofen_get_page_permalink('nurofen')); ?>"><img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/img/svg/nurofen.svg"
+                            alt="nurofen"></a></li>
+                <li><a href="<?php echo esc_url(nurofen_get_page_permalink('nurofen-kids')); ?>"><img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/img/svg/nurofen-child.svg"
+                            alt="nurofen"></a></li>
+            </ul>
+        </div>
+    </header>

@@ -585,6 +585,7 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   display: block;
 }
 .article-more .wrapper .articles .one-article .image-article .video-article-preview {
+  height: 224px;
   width: 100%;
 }
 .article-more .wrapper .articles .one-article .image-article .video-article-preview img {
@@ -597,10 +598,12 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   left: 50%;
   width: 80px;
   height: 80px;
-  transform: translate(-50%, -50%);
+  margin-left: -40px;
+  margin-top: -40px;
 }
-.article-more .wrapper .articles .one-article .image-article .button-play img {
-  filter: grayscale(0);
+.article-more .wrapper .articles .one-article .image-article .button-play svg {
+  width: 100%;
+  height: 100%;
 }
 .article-more .wrapper .articles .one-article .text-article {
   text-decoration: none;
@@ -1335,8 +1338,9 @@ footer .wrapper .information .menu-info .info-date .title {
   height: 141px;
   transform: translate(-50%, -50%);
 }
-.article-main .wrapper .block-video .image-video-article .button-play-article img {
-  filter: grayscale(0);
+.article-main .wrapper .block-video .image-video-article .button-play-article svg {
+  width: 100%;
+  height: 100%;
 }
 .article-main .wrapper .block-video .image-video-article img {
   filter: grayscale(100%);
@@ -1374,7 +1378,7 @@ footer .wrapper .information .menu-info .info-date .title {
   font-family: "Jost Bold";
 }
 .article-main .wrapper .block-video .info-about-article .about-article .color- {
-  color: #f2a83b;
+  color: #d12f37;
 }
 .article-main .wrapper .block-video .info-about-article .about-person-info {
   max-width: 491px;
@@ -1387,7 +1391,7 @@ footer .wrapper .information .menu-info .info-date .title {
   margin-top: 20px;
 }
 .article-main .wrapper .block-video .info-about-article .about-person-info .image-elipse-person {
-  background-color: #f2a83b;
+  background-color: #d12f37;
   border-radius: 1000px;
   overflow: hidden;
   max-width: 146px;

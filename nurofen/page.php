@@ -7,7 +7,7 @@
             the_content();
         endwhile;
     else :
-        echo '<p>Контент не найден</p>';
+        echo '<p>' . esc_html__('Контент не найден', NUROFEN_TD) . '</p>';
     endif;
     ?>
 </main>
