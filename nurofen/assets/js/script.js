@@ -45,12 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             popup.style.display = 'none';
         });
     }
-
-    if (noAgreeBtn) {
-        noAgreeBtn.addEventListener('click', function () {
-            window.location.href = REDIRECT_URL;
-        });
-    }
+   
 });
 
 document.addEventListener('DOMContentLoaded', () => {

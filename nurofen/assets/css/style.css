@@ -278,7 +278,7 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   flex-direction: column;
   margin-top: 86px;
   margin-left: 2px;
-  max-width: 730px;
+  max-width: 750px;
 }
 .header-main .wrapper .page-2 .logotip {
   max-width: 639px;
@@ -891,6 +891,7 @@ footer .wrapper .information .menu-info .info-date .title {
 .medications .wrapper .cards-medication .block-one .text-card-medic ul li {
   position: relative;
   padding-left: 21px;
+  max-width: 255px;
 }
 .medications .wrapper .cards-medication .block-one .text-card-medic ul li::before {
   content: "";
@@ -1073,6 +1074,7 @@ footer .wrapper .information .menu-info .info-date .title {
 .medications .wrapper .cards-medication-nurofen .block-one ul li {
   position: relative;
   padding-left: 41px;
+  max-width: 277px;
 }
 .medications .wrapper .cards-medication-nurofen .block-one ul li span {
   font-size: 24px;

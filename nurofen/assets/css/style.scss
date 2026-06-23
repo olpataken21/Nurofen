@@ -272,7 +272,7 @@ header {
       flex-direction: column;
       margin-top: 86px;
       margin-left: 2px;
-      max-width: 730px;
+      max-width: 750px;
       .logotip {
         max-width: 639px;
         width: 100%;
@@ -915,6 +915,7 @@ footer {
             li {
               position: relative;
               padding-left: 21px;
+              max-width: 255px;
             }
             li::before {
               content: "";
@@ -1109,6 +1110,7 @@ footer {
                 li {
                 position: relative;
                 padding-left: 41px;
+                max-width: 277px;
                 span{
                     font-size: 24px;
                     line-height: 105%;

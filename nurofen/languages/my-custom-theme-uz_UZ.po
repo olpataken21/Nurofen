@@ -493,7 +493,7 @@ msgstr "immunitetni<br> qo'llab-quvvatlash uchun<sup>5</sup>"
 
 #: page-strepsils.php:125
 #: single.php:247
-msgid "При первых симптомах<br> боль в горле<sup>6</sup>"
+msgid "При первых симптомах<br> боли в горле<sup>6</sup>"
 msgstr "Tomoq og'rig'ining birinchi<br> belgilarida<sup>6</sup>"
 
 #: page-strepsils.php:126
@@ -503,7 +503,7 @@ msgstr "Yumshatuvchi ta'sir<sup>6</sup>"
 
 #: page-strepsils.php:138
 #: single.php:264
-msgid "При первых симптомах<br> боль в горле<sup>7</sup>"
+msgid "При первых симптомах<br> боли в горле<sup>7</sup>"
 msgstr "Tomoq og'rig'ining birinchi<br> belgilarida<sup>7</sup>"
 
 #: page-strepsils.php:139
