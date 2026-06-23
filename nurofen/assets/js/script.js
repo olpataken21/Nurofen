@@ -45,7 +45,10 @@ document.addEventListener('DOMContentLoaded', function () {
             popup.style.display = 'none';
         });
     }
-   
+
+    if (noAgreeBtn) {
+        popup.style.display = 'none';
+    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
