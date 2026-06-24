@@ -84,8 +84,6 @@ span {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 10px;
-  padding-right: 10px; */
 }
 
 img {
@@ -237,9 +235,9 @@ header .wrapper .menu-header li:first-child a .icon-lang {
 .header-main .line {
   z-index: 3;
   right: 0;
-  top: 10px;
   width: 1071px;
   height: 619px;
+  top: 10px;
 }
 .header-main .circle-big {
   position: absolute;
@@ -271,27 +269,24 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   width: 100%;
   height: 100%;
 }
-
-
 .header-main .wrapper .title-main-header span {
   font-size: 30px;
   width: 100%;
 }
-.header-main .wrapper .page{
+.header-main .wrapper .page {
   margin-top: 113px;
 }
 .header-main .wrapper .page .logotip {
   max-width: 642px;
   width: 100%;
   margin-bottom: 5px;
- 
 }
-.header-main .wrapper .page .text-main{
+.header-main .wrapper .page .text-main {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.header-main .wrapper .page span{
+.header-main .wrapper .page span {
   font-size: 45px;
 }
 .header-main .wrapper .page-2 {
@@ -359,7 +354,6 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
-  /* gap: 40px; */
   gap: 7px;
   padding-bottom: 127px;
   padding-left: 0;
@@ -383,18 +377,17 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   color: rgb(209, 46, 54);
 }
 .about-us .wrapper .about-project .project-text .text-span {
+  max-width: 496px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  max-width: 496px;
 }
 .about-us .wrapper .about-project .project-img {
   overflow: hidden;
   position: relative;
   width: 100%;
   height: 280px;
-  /* max-width: 550px; */
   max-width: 630px;
 }
 .about-us .wrapper .about-project .project-img .vector-2 {
@@ -593,7 +586,6 @@ header .wrapper .menu-header li:first-child a .icon-lang {
   border-radius: 30px;
   background-color: white;
   transition: all 0.6s ease;
-  /* flex: 1 1 370px; */
 }
 .article-more .wrapper .articles .one-article .image-article {
   position: relative;
@@ -1043,7 +1035,7 @@ footer .wrapper .information .menu-info .info-date .title {
   background-color: white;
   border-radius: 30px;
   padding-left: 30px;
-  padding-top: 18px;
+  padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
   flex: 1;
@@ -1074,6 +1066,7 @@ footer .wrapper .information .menu-info .info-date .title {
   line-height: 120%;
   color: #d12e36;
   margin-bottom: 10px;
+  letter-spacing: 0;
 }
 .medications .wrapper .cards-medication-nurofen .block-one .sub-title sup {
   font-size: 20px;
@@ -1640,12 +1633,20 @@ footer .wrapper .information .menu-info .info-date .title {
     max-width: 494px;
   }
   .article-more .wrapper .articles {
-    flex-direction: column;
+    justify-content: center;
   }
-  .article-more .wrapper .articles .one-article{
+  .about-us .wrapper .about-project .project-text .text-span {
     max-width: 100%;
   }
-  
+  .article-more .wrapper .articles .one-article {
+    max-width: 100%;
+  }
+  .racketa-experts .wrapper .experts-project .experts-block span {
+    z-index: 1;
+  }
+  .racketa-experts .wrapper .block-racketa .block-racketa-text {
+    z-index: 2;
+  }
 }
 @media (max-width: 970px) {
   .about-us .wrapper .experts .experts-left .doctor-with-nerc {
@@ -1673,7 +1674,6 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .article-more .wrapper .articles .one-article {
     max-width: 100%;
-    
   }
   .article-more .wrapper .articles .one-article:hover {
     transform: scale(1);
@@ -1727,7 +1727,7 @@ footer .wrapper .information .menu-info .info-date .title {
     height: 77%;
     right: -7px;
   }
-  .header-main .line{
+  .header-main .line {
     width: 100%;
     height: 100%;
   }
@@ -1738,7 +1738,6 @@ footer .wrapper .information .menu-info .info-date .title {
     max-width: 200px;
     width: 100%;
     padding-top: 120px;
-    margin-top: 0;
   }
   .header-main .wrapper .title-main-header span {
     font-size: 16px;
@@ -1749,6 +1748,9 @@ footer .wrapper .information .menu-info .info-date .title {
   span {
     font-size: 16px;
   }
+  .about-us .wrapper .about-project .project-text .text-span {
+    width: 100%;
+  }
   .about-us .wrapper .about-project .project-img {
     max-width: 340px;
     height: 150px;
@@ -1758,8 +1760,8 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .about-us .wrapper .about-project .project-img .strepsils-card {
     max-width: 210px;
-    top: 34px;
-    left: 33px;
+    top: 32px;
+    left: 36px;
   }
   .about-us .wrapper .about-project .project-img .nurofen-card {
     max-width: 210px;
@@ -1768,7 +1770,7 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .about-us .wrapper .about-project .project-img .Union {
     width: 25px;
-    top: 77px;
+    top: 76px;
     left: 160px;
   }
   .about-us .wrapper {
@@ -1778,9 +1780,6 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   .about-us .wrapper .about-project .project-text {
     padding: 20px 20px 0 20px;
-  }
-  .about-us .wrapper .about-project .project-text .text-span{
-    max-width: 100%;
   }
   .sub-title {
     font-size: 24px;
@@ -1884,6 +1883,9 @@ footer .wrapper .information .menu-info .info-date .title {
   }
   footer .wrapper {
     gap: 20px;
+  }
+  .header-main .wrapper .page {
+    margin-top: 0;
   }
   .header-main .wrapper .page-2 .text-main span {
     font-size: 16px;

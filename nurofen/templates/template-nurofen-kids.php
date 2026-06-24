@@ -6,7 +6,7 @@ get_header();
 require get_template_directory() . "/inc/get_posts_by_category.php";
 ?>
 
-
+<img src="<?php echo get_template_directory_uri(); ?>/assets/img/Nurofen_for_children_desktop_UZ.png" alt="" style="width: 1440px; height: auto;z-index: 10000; opacity: 0.5; position:absolute; top: 0;left: 0;">
 <main>
     <section class="header-main">
         <div class="fon">
